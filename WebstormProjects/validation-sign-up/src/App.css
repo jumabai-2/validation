@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg")
+    no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background: white;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+}
+
+.forms {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #670fd3;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
